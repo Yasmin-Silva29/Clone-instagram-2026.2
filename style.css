@@ -1,0 +1,198 @@
+/* Reset Global*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+/* Containers*/
+
+#mainContainer{
+    display: flex;
+    margin-top: 30px;
+}
+
+#bannerContainer,
+#formContainer{
+    width: 50%;
+}
+
+#bannerContainer{
+    text-align: right;
+}
+
+#bannerContainer img{
+    width: 100px;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 300px;
+}
+
+#formContainer{
+    text-align: center;
+}
+
+/* Login Form*/
+
+#formBox{
+    background-color: #ffffff;
+    border: solid 1 px #bdbdbd;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logoInsta{
+    width: 175px;
+    height: 51px;
+    margin: 30px; auto :12 px;
+}
+
+#loginForm input{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px; solid :#dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#loginForm input[type="submit"]{
+background-color: #b2dffc;
+color: #ffffff;
+margin-top: 15px;
+border-radius: 15px;
+font-size: 13px;
+height: 30px;
+padding: 0%;
+font-weight: 700;/* fonte em negrito*/
+}
+/*SEPARADOR*/
+.separador{
+    position:relative;
+}
+.line{
+    border-top: 1px solid #bdbdbd;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separador span{
+    position: absolute;
+    text-transform: uppercase;
+    color: #bdbdbd;
+    background-color: #ffffff;
+    width: 50px;
+    font-size: 14px;
+    top:-6px;
+    margin-left: -25px;
+}
+
+/*Facebook Login*/
+#facebookLogin{
+    margin-bottom: 25px;
+}
+#FacebookLogin a {
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebookLogin img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#facebookLogin span{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+#esqueceuPassword{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#esqueceuPassword a{
+    text-decoration: none;
+    color: #373799;
+}
+
+/* Registro */
+#registercontainer{
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#registerContainer p{
+    font-size: 14px;
+    color: #262626;
+}
+#registerContainer a{
+    color: #4e95f6;
+    font-weight: 700;
+    text-decoration: none;
+    }
+
+    /* Obtenha o aplicativo */
+    #getAppContainer{
+        text-align: center;
+        width: 350px;
+    }
+
+    #getAppContainer p{
+        font-size: 14px;
+        margin: 20px 0px;
+    }
+
+    #getAppContainer img{
+        width: 136px;
+        height: 40px;
+    }
+
+    /* Footer */
+
+    footer{
+        text-align: left;
+        width: 1000px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+    }
+
+    #footerLinks{
+     display: flex;   
+     flex-direction: row;
+     list-style: none;
+    }
+
+    #footerLinks li{
+       margin-right: 10px;
+    }
+
+    #footerLinks a,
+    #copyright{
+        text-decoration: none;
+        color: #8e8e8e;
+        font-size: 12px;
+    }
+
+    #copyright{
+        margin-top: 10px;
+    }
